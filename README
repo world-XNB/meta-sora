@@ -4,9 +4,17 @@ Please see the corresponding sections below for details.
 
 Dependencies
 ============
-
+## poky  
   URI: git clone git://git.yoctoproject.org/poky  
   branch: altera
+
+## libhello
+  URI: git@gitee.com:southwest-north/libhello.git  
+  branch:master
+
+## sayhello
+  URI: git@gitee.com:southwest-north/sayhello.git  
+  branch:master
 
 Patches
 =======
@@ -28,4 +36,4 @@ Run 'bitbake-layers add-layer meta-sora'
 
 II. Misc
 ========
-meta-sora was to studied yocto layers 
+meta-sora was to studied yocto layers.
